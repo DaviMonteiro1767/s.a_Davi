@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image:  url('../atv.html/2storm.jpg');
+        background-position: center;
+    background-size: cover;
+}
+
+
+a{
+    text-decoration: none;
+}
+header .menu{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+header .menu li{
+    display: inline-block;
+}
+
+header .menu a{
+    color: rgb(168, 4, 4);
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200ms;
+}
+
+header .menu .ativo, header .menu a:hover{
+    color: rgb(168, 4, 4);
+    background-color: rgb(17, 2, 70);
+}
+
+.principal{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.principal h2{
+    color: rgb(187, 255, 0)
+    ;
+    font-size: 60px;
+    font-weight: 900;
+
+}
+
+.principal .links a{
+    color: rgb(168, 4, 4);
+    padding: 10px 18px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 20px;
+    transition: 300ms;
+}
+
+.principal .links a:hover{
+    color: rgb(255, 0, 0);
+    background-color: rgb(111, 30, 177);
+}
+
+.principal{ 
+    color: rgb(122, 4, 4);
+    font-size: 25px;
+    font-weight: 900;}
+
+
+    
+    
+
+   
+
